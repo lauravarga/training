@@ -49,14 +49,3 @@ merged_heap = heap_merge(arrays)
 while len(merged_heap) > 0:
     sys.stdout.write(str(heapq.heappop(merged_heap)) + ' ')
 
-# merged = multiple_merge(arrays, len(arrays)-1)
-
-# Write here.
-
-# for el in merged:
-#     sys.stdout.write(str(el) + ' ')
-    
-# print("ba")
-# print(multiple_merge([[1, 3], [2, 4, 5], [2, 3, 3, 4]], 2))
-# print(multiple_merge([[1, 2, 3, 4], [2, 3, 4, 5, 6]], 1))
-# print(merge([1, 2, 3, 4], [2, 3, 4, 5, 6]))
